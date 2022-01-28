@@ -18,6 +18,15 @@ public class SmallCircle {
     public int getRadius() {
         return radius;
     }
+    public SmallCircle()
+    {
+        this.radius=4;
+    }
+    public SmallCircle(int r)
+    {
+       this. radius=r;
+    }
+
 
     /**
      * @param radius the radius to set
